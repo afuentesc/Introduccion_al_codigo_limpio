@@ -16,8 +16,8 @@ import pandas as pd
 # Variable para tener fecha actual para las versiones
 now = datetime.today()
 date_str = now.strftime("%d%m_%H%M")
-eda_heatmap = "heatmap_" + date_str 
-eda_scatter = "scatter_" + date_str 
+eda_heatmap = "imgs/heatmap_" + date_str + ".png"
+eda_scatter = "imgs/scatter_" + date_str + ".png"
 
 # Variables con datos originales
 train_data = pd.read_csv("data/raw_train.csv") 
