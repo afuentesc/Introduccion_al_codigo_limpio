@@ -42,6 +42,6 @@ El repositorio cuenta cuenta con dos carpetas.
 
 # Ejecución.
 
-aaaaa
+La ejecución del proyecto se realiza desde el script `main.py/`
 
 
