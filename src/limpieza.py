@@ -9,7 +9,7 @@ El script tambien necesita contar con la libreria de `pandas`.
 
 # Librerias necesarias
 import pandas as pd
-#from general import fill_no
+
 
 # funcion para completar valores
 def fill_no(data):
@@ -18,9 +18,11 @@ def fill_no(data):
     :param data: dataframe con el set de datos a complementar.
     :return: regresa el dataset con los datos imputados.
     """
+    fill_col_no = ['FireplaceQu',"BsmtQual", "BsmtCond", "BsmtFinType1", "BsmtFinType2"]
     for col in fill_col_no:
         data[col].fillna("No", inplace=True)
     return data
+
 
 # funcion para completar valores
 def fill_missing_values(data):
