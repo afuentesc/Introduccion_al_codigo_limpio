@@ -6,11 +6,13 @@ En esta tarea se busca implementar el desarrollo de un modelo de ciencia de dato
 
 # Dependencias.
 
-El modelo y los scripts se desarrollaron utilizando Python (3.9.13). Las librerias necesarias para la ejecución de los scripts son: `datetime/`, `pandas/`,`matplotlib/`,`seaborn/`, `sscikit-learn /`.
+El modelo y los scripts se desarrollaron utilizando Python (3.9.13). Las librerias necesarias para la ejecución de los scripts son: `datetime/`, `pandas/`, `matplotlib/`, `seaborn/`,  `scikit-learn /`.
 
 # Inputs / Outputs.
 
-aaaa
+El proyecto considera para los inputs un set de datos de entrenamiento (raw_train.csv) y un set de test (raw_test.csv). Adicionalmente en el script general.py se incluyen variables que sirven de input en el resto de scripts.
+
+El output del modelo se obtiene en imagenes en formato png para un analisis EDA (heatmap_0102_1320.png, scatter_0102_1320), y también se obtiene un csv con las predicciones realizadas por el modelo (submission_0102_1320.csv). El formato de los outputs incluye el nombre del archivo con la fecha en formato dia, mes, hora y minuto de ejecución.
 
 # Estructura del repositorio.
 El repositorio cuenta cuenta con dos carpetas.
