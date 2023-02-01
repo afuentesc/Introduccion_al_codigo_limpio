@@ -1,0 +1,12 @@
+# Archivos de configuración.
+*.credentials.yaml
+
+# Archivos
+*.xlsx
+*.txt
+*.xml
+*.json
+
+# Documentación
+*.docx
+*.html
