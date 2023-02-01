@@ -25,6 +25,7 @@ El repositorio cuenta cuenta con dos carpetas.
 ├── main.py
 ├── README.md
 ├── data
+│   ├── data_description.txt
 │   ├── raw_test.csv
 │   ├── raw_train.csv
 │   ├── submission_0102_1320.csv
