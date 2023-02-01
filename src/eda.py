@@ -13,7 +13,7 @@ repositorio.
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-#from general import eda_heatmap, eda_scatter
+import general as gral
 
 # funciones para gráficar
 
@@ -26,7 +26,7 @@ def generate_heatmap(data):
     """
     fig, ax = plt.subplots(figsize=(25, 10))
     sns.heatmap(data=data.isnull(), yticklabels=False, ax=ax)
-    #fig.savefig(eda_heatmap)
+    fig.savefig(gral.eda_heatmap)
     
 
 # funcion para hacer grafica dispersion 
@@ -42,5 +42,5 @@ def generate_violin(data):
     sns.violinplot(x=data['HouseStyle'], y=data['SalePrice'], ax=ax)
     sns.scatterplot(x=data["Foundation"], y=data["SalePrice"],palette='deep', ax=ax)
     plt.grid()
-    #fig.savefig(eda_scatter)    
+    fig.savefig(gral.eda_scatter)    
     
