@@ -15,12 +15,17 @@ aaaa
 # Estructura del repositorio.
 El repositorio cuenta cuenta con dos carpetas.
 
+- En `data/` se almacenan los archivos csv con los datos originales y csv con las predicciones.
 - En `imgs/` se almacenan las imágenes generadas para el EDA.
 - En `src/` se almacenan los  scripts de python.
 
 ```
 ├── main.py
 ├── README.md
+├── data
+│   ├── raw_test.csv
+│   ├── raw_train.csv
+│   ├── submission_0102_1320.csv
 ├── imgs
 │   ├── heatmap_0102_1320.png
 │   ├── scatter_0102_1320.png
