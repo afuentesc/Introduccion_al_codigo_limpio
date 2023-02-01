@@ -6,7 +6,7 @@ En esta tarea se busca implementar el desarrollo de un modelo de ciencia de dato
 
 # Dependencias.
 
-aaaa
+El modelo y los scripts se desarrollaron utilizando Python (3.9.13). Las librerias necesarias para la ejecución de los scripts son: `datetime/`, `pandas/`,`matplotlib/`,`seaborn/`, `sscikit-learn /`.
 
 # Inputs / Outputs.
 
