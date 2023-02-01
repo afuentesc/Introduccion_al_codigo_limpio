@@ -22,8 +22,8 @@ El repositorio cuenta cuenta con dos carpetas.
 ├── main.py
 ├── README.md
 ├── imgs
-│   ├── EDA_Heatmap_0102.png
-│   ├── EDA_Scatter_0102.png
+│   ├── heatmap_0102_1320.png
+│   ├── scatter_0102_1320.png
 └── src
     ├── general.py
     ├── eda.py
