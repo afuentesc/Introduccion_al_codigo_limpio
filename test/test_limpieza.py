@@ -1,12 +1,13 @@
 """ Test Limpieza
 Este script contiene las funciones para hacer el test a las funciones fill_no,
-del modulo Eda.
+del modulo limpieza.
 
 El script tambien necesita contar con la libreria de `pytest`.
 
 """
 import logging
 import pandas as pd
+import pytest
 from src.limpieza import fill_no
 
 
