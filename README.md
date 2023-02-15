@@ -24,6 +24,7 @@ El repositorio cuenta cuenta con dos carpetas.
 ```
 ├── main.py
 ├── README.md
+├── environments.yml
 ├── test
 │   ├── test_limpieza.py
 ├── data
