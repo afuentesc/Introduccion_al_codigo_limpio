@@ -7,8 +7,6 @@ y la moda a variables categoricas.
 El script tambien necesita contar con la libreria de `pandas`.
 """
 
-# Librerias necesarias
-
 
 # funcion para completar valores
 def fill_no(data):
