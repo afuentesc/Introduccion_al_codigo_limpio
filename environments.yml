@@ -1,0 +1,17 @@
+name: codigo_limpio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.13
+  - scikit-learn
+  - pandas
+  - datetime
+  - pytest
+  - logging
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - seaborn
+  - pylint
