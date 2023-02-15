@@ -36,6 +36,7 @@ El repositorio cuenta cuenta con dos carpetas.
 │   ├── heatmap_0102_1320.png
 │   ├── scatter_0102_1320.png
 └── src
+    ├── __init__.py
     ├── general.py
     ├── eda.py
     ├── limpieza.py
